@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+<style>
+    body{    
+        background-image: url(img/img.jpg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+    }
+    .outer {
+        margin: auto;
+        height: 500px;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+        position: relative;
+        backdrop-filter: blur(20px);
+    }
+    label{
+        margin-left: 80px;
+
+    }
+
+    p {
+        margin-left: 80px;
+    }
+
+    .in {
+        margin-left: 80px;
+        padding: 10px
+    }
+
+    .bt {
+        font-size: 15px;
+        margin-top: 90px;
+        position: absolute;
+        left: 150px;
+    }
+
+    .bt:hover {
+        background: green;
+        font-size: 13px;
+        cursor: pointer;
+        color: white;
+    }
+    .a:hover{
+color: blue;
+    }
+
+
+</style>
+<body>
+    <br>
+    <div class="outer">
+        <h1 style="text-align: center;"> LOGIN PAGE</h1>
+        <label>Email: </label><br><br>
+        <input type="text" class="in" id="email" placeholder="enter the email">
+        <br><br>
+        <label >password</label><br><br>
+        <input type="password" class="in" placeholder="enter the password" id="in">
+        <br><br>
+        <label class="a"> forgotten password ?</label>
+        <input type="submit"  onclick="alert('Well done👍')" class="bt" >
+    </div>
+</body>
+</html>
